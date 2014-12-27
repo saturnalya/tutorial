@@ -80,12 +80,16 @@
                                 <segue destination="25U-LH-OKC" kind="unwind" unwindAction="unwindToList:" id="caB-iX-303"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="nbb-98-Z9X">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="U9P-U3-GWm">
                             <connections>
-                                <segue destination="25U-LH-OKC" kind="unwind" unwindAction="unwindToList:" id="MnA-k9-71R"/>
+                                <segue destination="25U-LH-OKC" kind="unwind" unwindAction="unwindToList:" id="jjw-5s-saf"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="saveButton" destination="U9P-U3-GWm" id="KYX-h8-QwT"/>
+                        <outlet property="textField" destination="2rZ-Pn-FW1" id="hW8-Zd-Lcw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="25U-LH-OKC" userLabel="Exit" sceneMemberID="exit"/>
